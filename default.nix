@@ -7,6 +7,8 @@ pkgs.mkShell {
     gitkraken
 
     python3
+    rustup
+    cargo
 
     sublime
     neovim
@@ -32,6 +34,8 @@ pkgs.mkShell {
     
     sublime
     neovim (nvim)
+    CLion
+    Pycharm Pro
     
     ripgrep
     
