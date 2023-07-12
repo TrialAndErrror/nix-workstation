@@ -10,6 +10,7 @@
         {
           config.allowUnfree = true;
           devShells.default = import ./default.nix { inherit pkgs; };
+          packages.${system}.default = nixpkgs.${system}.tmux;
         }
       );
 }
