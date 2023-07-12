@@ -11,7 +11,6 @@ pkgs.mkShell {
     cargo
 
     sublime
-    neovim
 
     jetbrains.clion
     jetbrains.pycharm-professional
@@ -19,6 +18,8 @@ pkgs.mkShell {
     ripgrep
 
     apostrophe
+    vlc
+    yt-dlp
   ];
 
   shellHook = ''
@@ -32,14 +33,19 @@ pkgs.mkShell {
     
     python3 (3.10.11)
     
+    rustup
+    cargo
+
     sublime
-    neovim (nvim)
     CLion
     Pycharm Pro
     
     ripgrep
     
     apostrophe
+    vlc
+    yt-dlp
+
     "
   '';
 }
