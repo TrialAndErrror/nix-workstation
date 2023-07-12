@@ -24,7 +24,7 @@ pkgs.mkShell {
     echo "You have access to:
     
     git
-    github cli (gh)."
+    github cli (gh).
     gitkraken
     lazygit
     
@@ -36,5 +36,6 @@ pkgs.mkShell {
     ripgrep
     
     apostrophe
+    "
   '';
 }
