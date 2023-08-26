@@ -2,8 +2,17 @@
   description = "Nix Workstation by Trial and Errror";
 
   # Links to import more basic flakes by default
-  inputs.basic_devshell.url = "github:TrialAndErrror/nix-devshell";
-  inputs.nvim_config.url = "github:TrialAndErrror/neovim-flake";
+  inputs = {
+    basic_devshell = {
+      url = "github:TrialAndErrror/nix-devshell";
+      flake = true;
+    };
+    nvim_config = {
+      url = "github:TrialAndErrror/neovim-flake";
+      flake = true;
+    };
+  };
+
   outputs = {
     self,
     nixpkgs,
