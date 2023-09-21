@@ -22,7 +22,6 @@
     system = "x86_64-linux";
     pkgs = nixpkgs.legacyPackages.${system};
   in {
-    apps.${system}.default = "pkgs.zellij";
     devShells.${system}.default = pkgs.mkShell {
       inherit basic_devshell nvim_config;
       buildInputs = with pkgs; [
