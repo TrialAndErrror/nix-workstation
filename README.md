@@ -22,7 +22,7 @@ NIXPKGS_ALLOW_UNFREE=1 NIXPKGS_ALLOW_UNSTABLE=1 nix --experimental-features 'nix
 
 ## Included Packages
 ### VCS
-- github cli (gh).
+- gh (github cli)
 - gitkraken
 - lazygit / lazydocker
 - gitui
@@ -35,21 +35,25 @@ NIXPKGS_ALLOW_UNFREE=1 NIXPKGS_ALLOW_UNSTABLE=1 nix --experimental-features 'nix
 ### Rust tools
 - rustup
 - cargo
-- bacon           # rust debugging
+- bacon
+    - rust debugging
 
 ### Editors
 - nvim
-- Pycharm Pro
-- CLion
+- pycharm-professional
+- clion
 - sublime
 - apostrophe
+    - markdown editor
 
 ### Command line tools
 - nushell
 - ripgrep
-- exa             # better ls
-- du-dust         # disk usage
-- bat             # syntax highlighting on cat
+- exa
+- du-dust
+    - disk usage tool
+- bat
+    - better cat
 
-- zellij         # better tmux
-- mprocs         # monitor long running processes
+- zellij
+- mprocs
