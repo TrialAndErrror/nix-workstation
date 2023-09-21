@@ -19,3 +19,37 @@ NIXPKGS_ALLOW_UNFREE=1 NIXPKGS_ALLOW_UNSTABLE=1 nix develop --impure 'github:Tri
 ```
 NIXPKGS_ALLOW_UNFREE=1 NIXPKGS_ALLOW_UNSTABLE=1 nix --experimental-features 'nix-command flakes' develop --impure 'github:TrialAndErrror/nix-workstation'
 ```
+
+## Included Packages
+### VCS
+- github cli (gh).
+- gitkraken
+- lazygit / lazydocker
+- gitui
+
+### Python tools
+- python3 (3.10.11)
+- black
+- poetry
+
+### Rust tools
+- rustup
+- cargo
+- bacon           # rust debugging
+
+### Editors
+- nvim
+- Pycharm Pro
+- CLion
+- sublime
+- apostrophe
+
+### Command line tools
+- nushell
+- ripgrep
+- exa             # better ls
+- du-dust         # disk usage
+- bat             # syntax highlighting on cat
+
+- zellij         # better tmux
+- mprocs         # monitor long running processes
