@@ -110,6 +110,7 @@
         zellij # better tmux
         mprocs # monitor long running processes
         "
+        zellij
       '';
     };
   };
